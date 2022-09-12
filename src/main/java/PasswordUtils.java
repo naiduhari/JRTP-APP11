@@ -6,6 +6,8 @@ public class PasswordUtils {
 	
 	int i = 10;
 	
+	int j =20;
+	
 	public static String encode(String Text) {
 		Encoder encoder= Base64.getEncoder();
 		return encoder.encodeToString(Text.getBytes());
